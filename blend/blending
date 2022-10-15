@@ -1,0 +1,22 @@
+ma byæ 4 trybów i 5 zdjêæ
+tryby:
+	- zwyk³y
+	- jasniejszy pixel
+	- ciemniejszy pixel
+	- mnozenie
+
+	ui->model->setvalue(0) or valute(0)
+	
+	
+	
+	
+	
+	
+	
+	
+img -> displayPicture -> g³ówny obrazek, w PaintEvent, zastêpuje bg w blendzie i background
+img ->
+tlo -> backgroud
+ptr -> bg
+ptr2 -> pt
+ptrtlo -> bg2

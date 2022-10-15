@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MyWindow</class>
+ <widget class="QMainWindow" name="MyWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1032</width>
+    <height>682</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MyWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QFrame" name="rysujFrame">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>600</width>
+      <height>600</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>10</y>
+      <width>381</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Blending</string>
+    </property>
+    <widget class="QPushButton" name="cleanButton">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>420</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Czyść</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="exitButton">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>460</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Wyjście</string>
+     </property>
+    </widget>
+    <widget class="QSlider" name="Rysunek1Slider">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>370</y>
+       <width>160</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>160</width>
+       <height>22</height>
+      </size>
+     </property>
+     <property name="maximum">
+      <number>100</number>
+     </property>
+     <property name="value">
+      <number>100</number>
+     </property>
+     <property name="sliderPosition">
+      <number>100</number>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="Rysunek1WyborBlendu">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>370</y>
+       <width>69</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>Normal</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Difference</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Darken</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Lighten</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QCheckBox" name="Rysunek1CheckBox">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>370</y>
+       <width>51</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>rys1</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="Rysunek2CheckBox">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>340</y>
+       <width>51</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>rys2</string>
+     </property>
+     <property name="checked">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="Rysunek3CheckBox">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>310</y>
+       <width>51</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>rys3</string>
+     </property>
+     <property name="checked">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="Rysunek4CheckBox">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>280</y>
+       <width>51</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>rys4</string>
+     </property>
+     <property name="checked">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="Rysunek5CheckBox">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>250</y>
+       <width>51</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>rys5</string>
+     </property>
+     <property name="checked">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="Rysunek2WyborBlendu">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>340</y>
+       <width>69</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>Normal</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Multiply</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Darken</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Lighten</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QSlider" name="Rysunek2Slider">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>340</y>
+       <width>160</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>160</width>
+       <height>22</height>
+      </size>
+     </property>
+     <property name="maximum">
+      <number>100</number>
+     </property>
+     <property name="value">
+      <number>100</number>
+     </property>
+     <property name="sliderPosition">
+      <number>100</number>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="Rysunek3WyborBlendu">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>310</y>
+       <width>69</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>Normal</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Multiply</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Darken</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Lighten</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="Rysunek4WyborBlendu">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>280</y>
+       <width>69</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>Normal</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Multiply</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Darken</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Lighten</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="Rysunek5WyborBlendu">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>250</y>
+       <width>69</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>Normal</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Multiply</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Darken</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Lighten</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QSlider" name="Rysunek3Slider">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>310</y>
+       <width>160</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>160</width>
+       <height>22</height>
+      </size>
+     </property>
+     <property name="maximum">
+      <number>100</number>
+     </property>
+     <property name="value">
+      <number>100</number>
+     </property>
+     <property name="sliderPosition">
+      <number>100</number>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QSlider" name="Rysunek4Slider">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>280</y>
+       <width>160</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>160</width>
+       <height>22</height>
+      </size>
+     </property>
+     <property name="maximum">
+      <number>100</number>
+     </property>
+     <property name="value">
+      <number>100</number>
+     </property>
+     <property name="sliderPosition">
+      <number>100</number>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QSlider" name="Rysunek5Slider">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>250</y>
+       <width>160</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>160</width>
+       <height>22</height>
+      </size>
+     </property>
+     <property name="maximum">
+      <number>100</number>
+     </property>
+     <property name="value">
+      <number>100</number>
+     </property>
+     <property name="sliderPosition">
+      <number>100</number>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1032</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
