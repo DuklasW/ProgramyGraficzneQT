@@ -1,6 +1,0 @@
-<RCC>
-    <qresource prefix="/">
-        <file>pingwin.png</file>
-    </qresource>
-    <qresource prefix="/prefix"/>
-</RCC>
