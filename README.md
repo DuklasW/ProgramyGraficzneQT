@@ -1,6 +1,15 @@
-# ProgramyGraficzneQT
-Tutaj znajdują się różne programy graficzne napisane w QT: <br>
-<b>3D</b> - program ten wyświetla figurę 3D i pozwala na proste przekształcenia<br>
-<b>OperacjaMorfologiczne</b> - zamienia obraz na obraz binarny a później umożliwia wykonanie operacji otwarcia i zamknięcia<br>
-<b>blend</b> - umożliwia wykonanie różnych trybów blendingu na 5 dostępnych zdjęciach<br>
-<b>morphingv3</b> - przekształca jedną bitmapę(z siatką trójkątną), w inną bitmapę<br>
+# Programy Graficzne QT
+
+Repozytorium zawiera różne programy graficzne napisane w frameworku QT:
+
+## 3D
+Program wyświetla figurę 3D i umożliwia wykonywanie prostych przekształceń.
+
+## Operacje Morfologiczne
+Program zamienia obraz na obraz binarny, a następnie umożliwia wykonanie operacji otwarcia i zamknięcia.
+
+## Blend
+Program umożliwia wykonywanie różnych trybów blendingu na pięciu dostępnych zdjęciach.
+
+## Morphingv3
+Program przekształca jedną bitmapę (z siatką trójkątną) w inną bitmapę.
